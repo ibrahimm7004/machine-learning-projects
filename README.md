@@ -20,19 +20,19 @@ This project implements a **credit card fraud detection system** using **Support
 
 Fraudsters are categorized based on their corporate and community level roles.
 
-![Fraudster Hierarchy](assets/tree.png)
+![Fraudster Hierarchy](fraud-detection/assets/tree.png)
 
 #### 🔍 Principal Component Analysis (PCA)
 
 To reduce dimensionality, PCA was applied, and the scree plot below shows the eigenvalues of each principal component.
 
-![PCA Scree Plot](assets/scree-plot-pca.png)
+![PCA Scree Plot](fraud-detection/assets/scree-plot-pca.png)
 
 #### ⚡ ML Pipeline
 
 Our pipeline standardizes the data, applies PCA for feature selection, and then uses an **SVM classifier** to predict fraudulent transactions.
 
-![SVM Pipeline](assets/svm-pipeline.png)
+![SVM Pipeline](fraud-detection/assets/svm-pipeline.png)
 
 #### 🚀 Results
 
