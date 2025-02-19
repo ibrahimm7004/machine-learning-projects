@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Result</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f7f7f7;
+            padding: 50px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .label {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .percentage {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="mb-4">Sentiment Analysis Result</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col">
+                        <p class="label">Label:</p>
+                    </div>
+                    <div class="col">
+                        <p class="percentage">Percentage:</p>
+                    </div>
+                </div>
+                {% for i in range(labels|length) %}
+                <div class="row">
+                    <div class="col">
+                        <p>{{ labels[i] }}</p>
+                    </div>
+                    <div class="col">
+                        <p>{{ percentages[i] }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
