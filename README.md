@@ -4,7 +4,7 @@ This repository contains a collection of **mini Machine Learning projects**, cov
 
 ---
 
-### 🛡️ Fraud Detection Using Machine Learning & Linear Algebra
+### 🛡️ Fraud Detection Using Machine Learning
 
 #### 📌 Overview
 
