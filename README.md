@@ -109,7 +109,7 @@ This project develops a **credit scoring model** using various machine learning 
 
 Below is a comparison table showing the evaluation metrics for different models tested in this project:
 
-![Credit Scoring Model Comparison](fraud-detection/assets/models-table.png)
+![Model Comparison](credit-scoring/assets/models-table.png)
 
 The table highlights the accuracy of different machine learning models used for credit scoring. **XGBoost** outperforms other models with the **lowest Mean Squared Error (MSE) and Root Mean Squared Error (RMSE)**, indicating its high precision. Random Forest and Neural Network models also show strong performance. On the other hand, K-Nearest Neighbors (KNN) has the **highest error rates**, making it the least suitable for this task.
 
