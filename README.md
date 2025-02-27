@@ -1,10 +1,10 @@
-## 🚀 Mini Machine Learning Projects Repository
+# 🚀 Machine Learning Projects Repository
 
-This repository contains a collection of **mini Machine Learning projects**, covering various domains such as **fraud detection, financial sentiment analysis, and more**. Each project is self-contained, demonstrating a specific ML/AI concept with clear implementations and results.
+This repository contains a collection of **Machine Learning projects**, covering various domains such as **fraud detection, financial sentiment analysis, and more**. Each project is self-contained, demonstrating a specific ML/AI concept with clear implementations and results.
 
 ---
 
-### 🛡️ Fraud Detection Using Machine Learning
+## 🛡️ Credit Card Fraud Detection
 
 #### 📌 Overview
 
@@ -50,7 +50,7 @@ Our pipeline standardizes the data, applies PCA for feature selection, and then 
 
 ---
 
-### 💰 Financial News Sentiment Analysis Application
+## 💰 Financial News Sentiment Analysis Application
 
 #### 📌 Overview
 
@@ -80,5 +80,39 @@ The **pretrained model** used for this task:
 🔗 **[DistilRoBERTa fine-tuned for financial sentiment analysis](https://huggingface.co/mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis)**
 
 🔗 **[Full Code & Implementation](news-sentiment-analysis/)**
+
+---
+
+## 💼 Credit Score Prediction
+
+#### 📌 Overview
+
+This project develops a **credit scoring model** using various machine learning techniques to predict an individual's creditworthiness based on financial and business data. The model leverages **XGBoost, Random Forest, Neural Networks, and other algorithms** to enhance prediction accuracy.
+
+#### 🛠️ Technologies Used
+
+- **Machine Learning:** XGBoost, Random Forest, Neural Networks, SVM, KNN, Linear Regression
+- **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib
+- **Data Processing:** One-hot encoding, Label Encoding, StandardScaler for normalization
+
+#### 🔑 Key Features
+
+- **Automated Data Processing:** Handles missing values, categorical data encoding, and numerical transformations.
+- **Multiple Model Evaluation:** Compares various models using **MSE, RMSE, MAE, R-squared, and Adjusted R-squared**.
+- **Optimal Model Selection:** Identifies the most accurate model for credit score prediction.
+
+#### 📈 Results
+
+- **Top Performing Model:** **XGBoost** with the highest **R-squared score of 96.78%**.
+- **Feature Normalization Success:** StandardScaler helped improve model convergence and accuracy.
+- **Regression Task Optimized:** Removed inappropriate evaluation metrics (e.g., F1-Score) since the task is continuous rather than classification-based.
+
+Below is a comparison table showing the evaluation metrics for different models tested in this project:
+
+![Credit Scoring Model Comparison](fraud-detection/assets/models-table.png)
+
+The table highlights the accuracy of different machine learning models used for credit scoring. **XGBoost** outperforms other models with the **lowest Mean Squared Error (MSE) and Root Mean Squared Error (RMSE)**, indicating its high precision. Random Forest and Neural Network models also show strong performance. On the other hand, K-Nearest Neighbors (KNN) has the **highest error rates**, making it the least suitable for this task.
+
+🔗 **[Full Report & Code](credit-scoring/)**
 
 ---
