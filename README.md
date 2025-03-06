@@ -6,7 +6,7 @@ This repository contains a collection of **Machine Learning projects**, covering
 
 ## 🛡️ Credit Card Fraud Detection
 
-#### 📌 Overview
+#### Overview
 
 This project implements a **credit card fraud detection system** using **Support Vector Machines (SVM)** and **Principal Component Analysis (PCA)**. The model analyzes financial transactions to classify them as **fraudulent or authentic**, helping mitigate risks in digital financial systems.
 
