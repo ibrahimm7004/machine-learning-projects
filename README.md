@@ -161,6 +161,6 @@ This project develops a **Crop Recommendation System** using **Machine Learning 
 - **Classification Model:** SVM model achieves **97% accuracy** in crop prediction.
 - **Deployment:** The model is saved and can be used in a **Flask API** for real-world applications.
 
-🔗 **[Full Code & Implementation](crop-recommendation/)**
+🔗 **[Full Code & Implementation](crop-recommendation-system/)**
 
 ---
