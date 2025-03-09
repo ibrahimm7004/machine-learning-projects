@@ -116,3 +116,51 @@ The table highlights the accuracy of different machine learning models used for 
 🔗 **[Full Report & Code](credit-scoring/)**
 
 ---
+
+## 🌾 Crop Recommendation System
+
+#### 📌 Overview
+
+This project develops a **Crop Recommendation System** using **Machine Learning techniques** to analyze environmental conditions like **temperature, humidity, rainfall, and soil nutrients** and suggest the best crops for cultivation.
+
+#### 🛠️ Technologies Used
+
+- **Machine Learning:** K-Means Clustering, SVM Classification
+- **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
+- **Deployment:** Flask API for real-time predictions
+
+#### 🔑 Key Features
+
+- **Exploratory Data Analysis (EDA):**
+
+  - Provides statistical summaries and average environmental requirements for different crops.
+  - Identifies suitable crops for different seasons (Summer, Winter, Rainy).
+
+- **Clustering with K-Means:**
+
+  - Determines optimal clusters using the Elbow Method.
+  - Groups crops based on environmental conditions and soil nutrients.
+
+- **Crop Classification using SVM:**
+
+  - Achieves **97% accuracy** in predicting the best crop based on given environmental conditions.
+
+- **Model Deployment:**
+  - Saves the trained **SVM model** as a joblib file for deployment in a **Flask environment** to make real-time predictions.
+
+#### 🚀 How It Works
+
+1. **Preprocesses the dataset** by standardizing environmental data.
+2. **Applies K-Means clustering** to group similar crops.
+3. **Trains an SVM classifier** to recommend the best crop.
+4. **Deploys the trained model** via a **Flask API** for real-time crop prediction.
+
+#### 📈 Results
+
+- **Clustering Analysis:** Groups crops into different clusters based on environmental conditions.
+- **Classification Model:** SVM model achieves **97% accuracy** in crop prediction.
+- **Deployment:** The model is saved and can be used in a **Flask API** for real-world applications.
+
+🔗 **[Full Code & Implementation](crop-recommendation/)**
+
+---
